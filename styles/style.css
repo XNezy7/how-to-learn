@@ -25,6 +25,12 @@
 .header__square-pic {
   height: 568px;
   width: 568px;
+  position: absolute;
+  background-color: #2f80ed;
+  right: 0;
+  top: 64px;
+  background-position: center;
+  z-index: 0;
 }
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -53,7 +59,6 @@
   font-size: 18px;
   font-style: normal;
   z-index: 2;
-
 }
 .header_link{
   z-index: 2;
@@ -66,16 +71,6 @@
   font-size: 102px;
   font-style: 600;
   z-index: 2;
-}
-.header__square-pic{
-  position: absolute;
-  background-color: #2f80ed;
-  right: 0;
-  top: 64px;
-  background-position: center;
-  width: 568px;
-  height: 568px;
-  z-index: 0;
 }
 .header__main-illustration{
   position: absolute;
@@ -191,7 +186,7 @@
   font-style: 600;
   text-align: center;
   width: 648px;
-  margin: 0  auto ;
+  margin: 0  auto;
   position: relative;
   z-index: 1;
 }
