@@ -114,16 +114,11 @@
 .span-accent{
   font-weight: bold;
 }
-.two-columns__second-paragraph :last-of-type{
+.two-columns__paragraph :last-of-type{
   line-height: 34px;
   font-style: normal;
   font-size: 24px;
   margin-bottom: 30px;
-}
-.two-columns__paragraph{
-  line-height: 34px;
-  font-style: normal;
-  font-size: 24px;
 }
 .digits__section-title{
   margin-top: 100px;
