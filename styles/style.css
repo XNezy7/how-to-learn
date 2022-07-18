@@ -22,7 +22,7 @@
   /* выше установили ограничения для секции */
 }
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
+.header__main-square-pic {
   height: 568px;
   width: 568px;
   position: absolute;
@@ -114,13 +114,13 @@
 .span-accent{
   font-weight: bold;
 }
-.two-columns__second-paragraph{
+.two-columns__second-paragraph :last-of-type{
   line-height: 34px;
   font-style: normal;
   font-size: 24px;
   margin-bottom: 30px;
 }
-.two-columns__thirth-paragraph{
+.two-columns__paragraph{
   line-height: 34px;
   font-style: normal;
   font-size: 24px;
