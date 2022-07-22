@@ -72,7 +72,7 @@
   margin-left: 64px;
   line-height: 96px;
   font-size: 102px;
-  font-style: Semi Bold;
+  font-style: semi bold;
   z-index: 2;
 }
 .header__main-illustration{
@@ -134,7 +134,7 @@
   width: 60%;
   line-height: 115%;
   font-size: 60px;
-  font-style: Semi Bold;
+  font-style: semi bold;
 }
 .section-subtitle{
   margin: 0;
@@ -151,7 +151,7 @@
   margin: 0;
   line-height: 115%;
   font-size: 24px;
-  font-style: Semi Bold;
+  font-style: semi bold;
 }
 .table-text{
   margin: 0;
@@ -185,7 +185,7 @@
 .feynman__title{
   line-height: 115%;
   font-size: 120px;
-  font-style: Semi Bold;
+  font-style: semi bold;
   text-align: center;
   width: 648px;
   margin: 0  auto;
@@ -231,7 +231,7 @@
   width: 60%;
   line-height: 115%;
   font-size: 60px;
-  font-style: Semi Bold;
+  font-style: semi bold;
   z-index: 1;
   margin: 0 auto;
   color: white;
@@ -248,25 +248,8 @@
   z-index: 1;
   color: white;
 }
-.table__cell{
-  z-index: 1;
-  margin-top: 80px;
-  text-align: left;
-}
 .kaufman__table__cell_dark{
   width: 200px;
-}
-.table__heading{
-  line-height: 115%;
-  font-size: 24px;
-  font-style: Semi Bold;
-  z-index: 1;
-}
-.table-text{
-  line-height: 120%;
-  font-size: 18px;
-  font-style: normal;
-  z-index: 1;
 }
 .table__heading_dark{
   margin: 0;
