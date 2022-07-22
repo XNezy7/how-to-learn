@@ -250,6 +250,7 @@
 }
 .kaufman__table__cell_dark{
   width: 200px;
+  z-index: 1;
 }
 .table__heading_dark{
   margin: 0;
