@@ -33,12 +33,6 @@
   z-index: 0;
 }
 /* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
 .logo{
   width: 228px;
   height: 32px;
@@ -153,7 +147,7 @@
   font-size: 24px;
   font-style: semi bold;
 }
-.table-text{
+.table_text{
   margin: 0;
   margin-top: 20px;
   line-height: 120%;
@@ -226,37 +220,21 @@
   z-index: 0;
   position: relative;
 }
-.section-title_dark{
-  text-align: center;
-  width: 60%;
-  line-height: 115%;
-  font-size: 60px;
-  font-style: semi bold;
-  z-index: 1;
-  margin: 0 auto;
-  color: white;
-  padding-top: 90px;
-}
-.section-subtitle_dark{
-  padding-top: 20px;
-  text-align: center;
-  margin: auto;
-  width: 60%;
-  line-height: 34px;
-  font-size: 24px;
-  font-style: normal;
-  z-index: 1;
+.section-title_theme_dark{
   color: white;
 }
-.kaufman__table__cell_dark{
+.section-subtitle_theme_dark{
+  color: white;
+}
+.table__cell_theme_dark{
   width: 200px;
   z-index: 1;
 }
-.table__heading_dark{
+.table__heading_theme_dark{
   margin: 0;
   color:white;
 }
-.table-text_dark{
+.table_text_theme_dark{
   margin: 0;
   color: white;
 }
