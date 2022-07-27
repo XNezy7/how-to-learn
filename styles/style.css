@@ -147,7 +147,7 @@
   font-size: 24px;
   font-style: semi bold;
 }
-.table_text{
+.table__text{
   margin: 0;
   margin-top: 20px;
   line-height: 120%;
@@ -231,11 +231,9 @@
   z-index: 1;
 }
 .table__heading_theme_dark{
-  margin: 0;
   color:white;
 }
-.table_text_theme_dark{
-  margin: 0;
+.table__text_theme_dark{
   color: white;
 }
 .kaufman__triangle{
