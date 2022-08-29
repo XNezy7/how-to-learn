@@ -22,7 +22,7 @@
   /* выше установили ограничения для секции */
 }
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__main-square-pic {
+.header__main_square-pic {
   height: 568px;
   width: 568px;
   position: absolute;
@@ -47,7 +47,8 @@
 .header__subtitle{
   margin: 0;
   position: absolute;
-  width: 388px;
+  max-width: 388px;
+  width: 100%;
   left: 64px;
   bottom: 30px;
   line-height: 25px;
@@ -55,7 +56,7 @@
   font-style: normal;
   z-index: 2;
 }
-.header_link{
+.header__link{
   z-index: 2;
   color: #2f80ed;
   text-decoration: none;
@@ -66,7 +67,7 @@
   margin-left: 64px;
   line-height: 96px;
   font-size: 102px;
-  font-style: semi bold;
+  font-style: 600;
   z-index: 2;
 }
 .header__main-illustration{
@@ -114,10 +115,7 @@
   font-weight: bold;
 }
 .two-columns__paragraph:last-of-type{
-  line-height: 34px;
-  font-style: normal;
-  font-size: 24px;
-  margin-bottom: 30px;
+  margin-bottom: 0;
 }
 .section-title{
   margin-top: 100px;
@@ -128,7 +126,7 @@
   width: 60%;
   line-height: 115%;
   font-size: 60px;
-  font-style: semi bold;
+  font-style: 600;
 }
 .section-subtitle{
   margin: 0;
@@ -145,7 +143,7 @@
   margin: 0;
   line-height: 115%;
   font-size: 24px;
-  font-style: semi bold;
+  font-style: 600;
 }
 .table__text{
   margin: 0;
@@ -158,8 +156,8 @@
   flex-wrap: wrap;
   display: flex;
   width: 1100px;
-  margin: 0 auto 100px;
   justify-content: space-between;
+  margin: 0 auto 100px;
 }
 .table__cell{
   list-style-type: none;
@@ -175,11 +173,12 @@
   flex-direction: column;
   z-index: 0;
   background-color: #f2f2f2;
+  box-sizing: border-box;
   }
 .feynman__title{
   line-height: 115%;
   font-size: 120px;
-  font-style: semi bold;
+  font-style: 600;
   text-align: center;
   width: 648px;
   margin: 0  auto;
@@ -212,23 +211,25 @@
   left: 0;
   bottom: 0;
   position: absolute;
-  z-index: -1;
+  z-index: 0;
 }
 .kaufman{
   overflow: hidden;
   background-color: #1f1f1f;
-  z-index: 0;
   position: relative;
+  z-index: 2;
 }
 .section-title_theme_dark{
   color: white;
+  z-index: 2;
 }
 .section-subtitle_theme_dark{
   color: white;
+  z-index: 2;
 }
 .table__cell_theme_dark{
   width: 200px;
-  z-index: 1;
+  z-index: 2;
 }
 .table__heading_theme_dark{
   color:white;
@@ -237,12 +238,13 @@
   color: white;
 }
 .kaufman__triangle{
-  z-index: 0;
   width: 877px;
   height: 877px;
   position: absolute;
   right: -210px;
   top: 0;
+  background-image: url(../images/kaufman-triangle.svg);
+  alt: "Метод Кауфмана";
 }
 .footer{
   padding-top: 60px;
@@ -258,7 +260,7 @@
   width: 90%;
   justify-content: space-between;
 }
-.footer__column-content-copyright{
+.footer__column_content-copyright{
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
@@ -285,7 +287,7 @@
   margin-top: 0;
   line-height: 30px;
   font-size: 18px;
-  font-style: semi bold;
+  font-style: 600;
   margin-bottom: 20px;
 }
 .footer__column-links{
