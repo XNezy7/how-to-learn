@@ -161,7 +161,7 @@
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 90px;
+  margin-bottom: 100px;
 }
 .table__cell{
   list-style-type: none;
@@ -243,6 +243,9 @@
 .table__text_theme_dark{
   color: white;
 }
+.table_theme_dark{
+  margin-bottom: 90px;
+}
 .kaufman__triangle{
   width: 877px;
   height: 877px;
@@ -251,6 +254,7 @@
   top: 0;
   background-image: url(../images/kaufman-triangle.svg);
   background-size: cover;
+  z-index: -1;
 }
 .footer{
   padding-top: 60px;
