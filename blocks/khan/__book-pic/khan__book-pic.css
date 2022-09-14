@@ -1,8 +1,7 @@
 .khan__book-pic{
-    object-position: left bottom;
-    object-fit: fill;
+    object-position: left 0;
+    object-fit: cover;
     width: 620px;
     height: 608px;
-    margin-bottom: 0;
     vertical-align: bottom;
 }
