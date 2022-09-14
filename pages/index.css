@@ -26,7 +26,7 @@
 @import url(../blocks/feynman/__img/feynman__img.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
-@import url(../blocks/footer/__column_content_copyright/feynman__column_content_copyright.css);
+@import url(../blocks/footer/__column_content_copyright/footer__column_content_copyright.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__column-links/footer__column-links.css);
 @import url(../blocks/footer/__column-link/footer__column-link.css);
