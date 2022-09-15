@@ -1,9 +1,9 @@
-.cards{
+.techniques__cards{
     padding: 0;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     width: 920px;
-    gap: 100px;
+    gap: 0 100px;
     margin: 0;
 }

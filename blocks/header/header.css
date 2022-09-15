@@ -8,4 +8,5 @@
     justify-content: flex-start;
     align-items: center;
     background-color: #f2f2f2;
+    overflow: hidden;
 }
