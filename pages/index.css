@@ -1,5 +1,4 @@
 @import url(../blocks/rotation/rotation.css);
-@import url(../styles/style.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__title/header__title.css);
@@ -53,7 +52,6 @@
 @import url(../blocks/video/__iframe/video__iframe.css);
 @import url(../blocks/video/__iframes/video__iframes.css);
 @import url(../blocks/oakley/oakley.css);
-@import url(../blocks/khan/khan.css);
 @import url(../blocks/khan/__container/khan__container.css);
 @import url(../blocks/khan/__title/khan__title.css);
 @import url(../blocks/khan/__quote/khan__quote.css);
